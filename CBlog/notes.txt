@@ -1,0 +1,53 @@
+==================
+PythonAnywhere
+------------------
+fabeh 
+1234abcd*
+==================
+GitHub		
+------------------
+Fabeh 
+23*
+==================
+Structure
+------------------
+Login & Superuser
+--------------------------------------------
+user name:	fabeh
+pwd:		1234
+host name:	CannaBlog
+full name:	Fabian Wiktora
+
+Testing environment:	http://127.0.0.1:8000/admin/
+Appname: 		CannaBlog
+Name in Struktur: 	Blog
+==================
+
+Basic
+------------------
+Virtualenv starten:
+...\LOCAL>python -m venv myvenv
+
+Server starten:
+python manage.py runserver
+==================
+Models
+------------------
+Blog/models.py:		Einfügen aller Objects
+1. Klasse & Methoden definieren
+2. Datenbank mit Model-Änderungen aktualisieren:
+	CMD: python manage.py makemigrations Blog
+3. Apply to database:
+	CMD: python manage.py migrate Blog
+
+==================
+Django Admin
+------------------
+login		admin
+pwd		1234abcd*
+https://docs.djangoproject.com/en/1.11/ref/contrib/admin/
+
+Blog/admin.py:		Model auf der Admin-Site sichtbar machen
+
+
+================================================
