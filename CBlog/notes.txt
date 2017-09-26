@@ -8,6 +8,8 @@ GitHub
 ------------------
 Fabeh 
 23*
+Repo: canna-blog
+
 ==================
 Structure
 ------------------
