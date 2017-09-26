@@ -3,6 +3,19 @@ PythonAnywhere
 ------------------
 fabeh 
 1234abcd*
+
+Bash-console (Webmaske)
+- Repo von GitHub cloned:
+	git clone https://github.com/Fabeh/canna-blog.git
+- Check Repo:
+	tree canna-blog
+(Create virtualenv and stuff: https://tutorial.djangogirls.org/en/deploy/)
+
+ACHTUNG: Das virtualenv wird hier als "myenv" bezeichnet, NICHT "myvenv"
+Superuser:
+user name:	fabeh
+pwd:		1234abcd*
+
 ==================
 GitHub		
 ------------------
@@ -16,7 +29,7 @@ Structure
 Login & Superuser
 --------------------------------------------
 user name:	fabeh
-pwd:		1234
+pwd:		1234abcd*
 host name:	CannaBlog
 full name:	Fabian Wiktora
 
@@ -52,4 +65,15 @@ https://docs.djangoproject.com/en/1.11/ref/contrib/admin/
 Blog/admin.py:		Model auf der Admin-Site sichtbar machen
 
 
-================================================
+===================
+URLs
+------------------
+CannaBlog/urls.py
+	Inkludiert URLs aller untergeordneten apps (url(r'', include('Blog.urls'))
+Blog/urls.py
+	Inkludiert App-bezogene URLs (url(r' ^$, views.post_list name='post_list');
+===================
+Views
+------------------
+View: Application logic.
+	
