@@ -76,4 +76,8 @@ Blog/urls.py
 Views
 ------------------
 View: Application logic.
-	
+===================
+1. views.py -> import -> def method(s)
+2. html template
+3. urls.py
+
